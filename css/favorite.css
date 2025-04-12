@@ -1,0 +1,91 @@
+.favorite{
+    width: 100%;
+    height: 405px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .favorite-center{
+        border-radius: 16px;
+        border: 1px solid lightgray;
+        width: 80%;
+        height: inherit;
+
+        .favorite-center-top{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+                text-align: center;
+                font-size: 24px;
+                font-family: var(--font-family);
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+                direction: ltr;
+            }
+        }
+        .favorite-center-bottom{
+            width: 100%;
+            height: 325px;
+        }
+        
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .swiper-slide-item{
+            width: 100%;
+            height: 100%;
+            .swiper-slide-item-top{
+                width: 100%;
+                height: 32%;
+                display: flex;
+                justify-content: center;
+                column-gap: 5px;
+                flex-flow: row nowrap;
+                align-items: center;
+                img{
+                    width: 84px;
+                    height: 84px;
+                }
+                h5{
+                    font-family: var(--font-number);
+                    font-size: 30px;
+                    color: rgb(21, 219, 219);
+                }
+                p{
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    box-orient: vertical;
+                    overflow: hidden;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 2;
+                    font-family: var(--font-family);
+                    font-size: 10px;
+                    font-weight: normal;
+                }
+
+            }
+        }
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+}

@@ -1,0 +1,29 @@
+.offer{
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .offer-center{
+        border-radius: 16px;
+        width: 80%;
+        height: 245px;
+        margin: 10px auto;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        .offer-center-image{
+            width: 290px;
+            height: 242px;
+            border-radius: 16px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            
+        }
+
+        
+
+    }
+}

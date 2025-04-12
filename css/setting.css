@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+@font-face{
+    font-family: yekan;
+    src: url(../font/yekan/IRANYekanWeb-Medium.eot);
+    src: url(../font/yekan/IRANYekanWeb-Medium.woff);
+    src: url(../font/yekan/IRANYekanWeb-Medium.woff2);
+    src: url(../font/yekan/IRANYekanWeb-Medium.ttf);
+
+}
+@font-face{
+    font-family: titr;
+    src: url(../font/titr/BTitrBold.eot);
+    src: url(../font/titr/BTitrBold.ttf);
+    src: url(../font/titr/BTitrBold.woff);
+    src: url(../font/titr/BTitrBold.woff2);
+}
+:root{
+    --font-family:yekan;
+    --font-number: titr;
+    --border-radius-medium:8px;
+}
+
+html,body{
+    direction: rtl;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    width: 35px !important;
+    height: 35px !important;
+    background-color: whitesmoke;
+    border: 1px solid rgb(52, 51, 51) ;
+    border-radius: 50%;
+}
+.swiper-rtl .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    font-size: 12px;
+    font-weight: bold;
+    color: #2b2b2b;
+}
+.swiper-button-disabled{
+    opacity: 0 !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    width: 5px ;
+    height: 5px ;
+    background-color: #5a5656;
+    transition: 200ms;
+}
+.swiper-pagination-bullet-active{
+    all: unset;
+    width: 20px !important;
+    height: 5px !important;
+    background-color: whitesmoke !important;
+    border-radius: 5px !important;
+}
+
+:root{
+    box-sizing: border-box;
+}

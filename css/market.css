@@ -1,0 +1,82 @@
+.market{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .market-center{
+        width: 80%;
+        height: 110px;
+        background-color: rgb(213, 252, 233);
+        border-radius: 16px;
+        display: flex;
+        column-gap: 5px;
+        .market-center-right{
+            width: 50%;
+            border-radius: 16px;
+            height: inherit;
+            display: flex;
+            justify-content:right ;
+            .market-logo{
+                width: 62px;
+                height: 60px;
+                margin: auto 15px;
+
+            }
+            .market-soper{
+                margin: 40px 0px;
+            }
+            .market-sale-circle{
+                width: 100px;
+                height: 25px;
+                border-radius: 16px;
+                background-color: rgb(67, 155, 67);
+                margin: 45px ;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    color: whitesmoke;
+                    font-size: 13px;
+                    font-family: var(--font-family);
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
+
+        }
+        .market-center-left{
+            width: 50%;
+            height: inherit;
+            border-radius: 16px;
+            display: flex;
+            column-gap: 10px;
+            
+            img{
+                width: 65px;
+                height: 65px;
+                border-radius: 40px;
+                margin: 20px 0px;
+            }
+            .market-7-beyzi{
+                width: 200px;
+                height: 35px;
+                border-radius: 16px;
+                background-color: rgb(222, 224, 222);
+                margin: 45px ;
+                display: flex;
+            }
+               
+                .p-2{
+                    color: rgb(64, 121, 72);
+                    font-size: 13px;
+                    font-family: var(--font-family);
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            
+
+        }
+
+    }
+}
