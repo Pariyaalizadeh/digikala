@@ -61,6 +61,8 @@
                 display: flex;
                 align-items: center;
                 column-gap: 20px;
+                padding-top: 5px;
+                box-sizing: border-box;
                 .header-center-register-first{
                     display: block;
                     width: 130px;
