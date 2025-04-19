@@ -1,5 +1,4 @@
 @import "./setting.css";
-@import "./header.css";
 @import "./story.css";
 @import"./slider.css";
 @import"./categury.css";
@@ -12,20 +11,26 @@
 @import"./mobile.css";
 @import"./favorite.css";
 @import"./mobile-two.css";
-@import"./shose.css";
-@import"./select.css";
 @import"./haraj.css";
 @import"./read.css";
-@import"./bottom-1.css";
-@import"./bottom-2.css";
-@import"./bottom-3.css";
-@import"./bottom-4.css";
-@import"./bottom-5.css";
-@import"./bottom-6.css";
-@import"./bottom-7.css";
-@import"./markets.css";
 @import"./store.css";
 @import"./support.css";
+@import"./digi-footer.css";
+@import"./gold-bottom.css";
+@import"./gold-header.css";
+@import"./digi-gold-center.css";
+@import"./digi-header.css";
+@import"./digi-form.css";
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -53,18 +53,20 @@
             column-gap: 10px;
             
             img{
-                width: 65px;
-                height: 65px;
+                width: 60px;
+                height: 60px;
                 border-radius: 40px;
                 margin: 20px 0px;
             }
             .market-7-beyzi{
-                width: 200px;
+                width: 250px;
                 height: 35px;
                 border-radius: 16px;
-                background-color: rgb(222, 224, 222);
+                background-color: rgb(210, 225, 210);
                 margin: 45px ;
                 display: flex;
+                align-items: center;
+                justify-content: center;
             }
                
                 .p-2{

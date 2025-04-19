@@ -47,6 +47,9 @@
                     -webkit-line-clamp: 2;
                     line-clamp: 2;
                     overflow: hidden;
+                    text-decoration: none !important;
+                    user-select: none;
+                
                     
                 }
             }
